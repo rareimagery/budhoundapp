@@ -1,0 +1,18 @@
+name = Commerce DrupalGap Product
+description = Provides the taxonomy vocabularies, product types, product display types, and related functionality.
+core = 7.x
+package = Commerce Drupalgap
+version = 7.x-2.14
+project = commerce_drupalgap_product
+dependencies[] = ctools
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = drupalgap_products
+
+; Information added by Drupal.org packaging script on 2014-06-03
+version = "7.x-1.0"
+core = "7.x"
+project = "commerce_drupalgap_kickstart"
+datestamp = "1401815628"
+

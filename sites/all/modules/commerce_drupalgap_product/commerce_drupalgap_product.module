@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Commerce DrupalGap Product feature.
+ */
+
+include_once 'commerce_drupalgap_product.features.inc';
